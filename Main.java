@@ -5,11 +5,12 @@ public class Main {
 
     Base base = new Base();
     base.Welcome();
-    base.Pause();
+  
 
-    System.out.println("Hello World");
-    System.out.println(base.Input());
-
+    Path1 path1 = new Path1();
+    path1.AllPath1();
+    
+    
 
 
 

@@ -12,7 +12,7 @@ public void Welcome(){
 
     System.out.print("My name is " + myName + ", and I am a Java program made to keep you company!");
 
-
+    Pause();
 
 }
 
@@ -26,17 +26,21 @@ public String Input(){
 
 
 public void Pause(){
-    System.out.println("");
+    Scanner scanner = new Scanner(System.in);
     for (int i = 0; i < 3; i++) {
-        
-        System.out.print(".");
         try {
             Thread.sleep(800); // Sleep for 500 milliseconds (0.5 seconds)
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.print(".");
+    }
+    if (scanner.hasNextLine()) {
+        scanner.nextLine();
     }
     System.out.println("");
+    
+    
 }
 
 

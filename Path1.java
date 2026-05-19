@@ -4,8 +4,8 @@ public class Path1 extends Base {
         Welcome();
 
     }
-    String[] topics = { "Bees", "The color blue", "The Stock Market", "Jupiter", "Peanut Butter", "Dogs", "fonts", "The Ocean", "The Human Experience"};
-
+    String[] topics = { "Bees", "The color blue", "The Stock Market", "Jupiter", "Peanut Butter", "Dogs", "fonts", "The Ocean", "The Human Experience", "Door Knobs", "Laissez-Faire Capitalism", "The Month of Febuary", "The History of Cheese", "",""};
+    String topic = "";
     public void Welcome(){
         System.out.println("Well, what do you want to talk about today?");
         String topic1 = topics[java.util.random.RandomGenerator.getDefault().nextInt(0, topics.length)];
@@ -14,11 +14,11 @@ public class Path1 extends Base {
         System.out.println("2. " + topic2);
         String topic3 = topics[java.util.random.RandomGenerator.getDefault().nextInt(0, topics.length)];
         System.out.println("3. " + topic3);
-        String topic;
+        String topic = "";
 
 
         String TopicChoice = Input();
-
+        
         
 
         if (TopicChoice.equals("1")){
@@ -40,7 +40,7 @@ public class Path1 extends Base {
         else if (topic == ""){}
         
         else{
-            System.out.println("Really?"+TopicChoice+"? Why would you want to talk about that?");
+            System.out.println("Really?"+topic+"? Why would you want to talk about that?");
             Pause();
             System.out.println("Like what do you expect me to say about that?");
         }
