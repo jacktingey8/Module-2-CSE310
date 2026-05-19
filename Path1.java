@@ -42,7 +42,7 @@ public class Path1 extends Base {
         else{
             System.out.println("Really?"+TopicChoice+"? Why would you want to talk about that?");
             Pause();
-            System.out.println("Like what do you expect me to say about that?")
+            System.out.println("Like what do you expect me to say about that?");
         }
     }
 }
