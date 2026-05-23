@@ -1,14 +1,21 @@
 public class Main {
   public static void main(String[] args) {
-    int randomNum = java.util.random.RandomGenerator.getDefault().nextInt(0, 4);
-    System.out.println(randomNum);
+    
+    
 
     Base base = new Base();
+    base.Clear();
     base.Welcome();
+    base.GetUserInfo();
   
 
     Path1 path1 = new Path1();
-    path1.AllPath1();
+    path1.Question1();
+
+    Path2 path2 = new Path2();
+    path2.Question2();
+
+    base.FinalQuestion();
     
     
 

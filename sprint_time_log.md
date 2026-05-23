@@ -52,7 +52,7 @@ Date -  Minutes - Category - Description
 
 5/22 - 120 - IM - most of the busy work behind the program
 
-5/23 - 120 - IM - final touches on module, viable product, record video.
+5/23 - 180 - IM - Added Lots more dialouge, final touches on module, viable product, record video.
 
 
 
