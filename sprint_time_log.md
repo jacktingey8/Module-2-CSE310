@@ -2,7 +2,7 @@
 
 Name: Jack Tingey
 
-Sprint #: 1
+Sprint #: 2
 
 ## Instructions
 
@@ -61,9 +61,10 @@ _Note: Add more rows as needed._
 
 ## Sprint Totals
 
+
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |             
-|TP - Team Project              |              
-|MTG - Class Meetings           |               
-|**TOTAL**                      |               
+|IM - Individual Module         |       11 Hours      
+|TP - Team Project              |       4 Hours
+|MTG - Class Meetings           |       6 Hours     
+|**TOTAL**                      |              
